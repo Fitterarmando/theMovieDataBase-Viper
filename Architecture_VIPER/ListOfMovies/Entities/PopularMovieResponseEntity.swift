@@ -8,6 +8,6 @@
 import Foundation
 
 // Con estos dos metodos ya podemos realizar el metodo de nuestro interactor.
-struct PopularMovieResponsableEntity: Decodable {
+struct PopularMovieResponseEntity: Decodable {
     let results: [PopularMovieEntity]
 }
